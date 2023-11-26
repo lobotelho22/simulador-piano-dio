@@ -108,3 +108,13 @@ header .column span {
     text-align: center;
     font-size: 1.13rem;
 }
+
+.piano-keys .white.active {
+    box-shadow: inset -5px 5px 20px rgba(0, 0, 0, 0.4);
+    background: linear-gradient(to bottom #fff 0%, #eee 100%);
+  }
+
+.piano-keys .black.active {
+    box-shadow: inset -5px 5px 10px rgba(255, 255, 255, 0.4);
+    background: linear-gradient(to bottom #000, #434343);
+  }
